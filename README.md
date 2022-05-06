@@ -1,6 +1,6 @@
 # Homebrew tap for temporalio
 
-Brew tap temporalio/brew
+Tap temporalio/brew
 ```
 brew tap temporalio/brew
 ```
@@ -10,7 +10,8 @@ Install tcld formula
 brew install tcld
 ```
 
-Brew tap and install
+Tap and install tcld
 ```
 brew install temporalio/brew/tcld
 ```
+
