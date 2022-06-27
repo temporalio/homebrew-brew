@@ -1,8 +1,8 @@
 class Tcld < Formula
   desc "Temporal Cloud CLI (tcld)"
   homepage "https://temporal.io/"
-  url "https://github.com/temporalio/tcld/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "ac0d02dafe48662d49e2bd9eda94e69d841bcaad02148c866a53767a3ae55cf7"
+  url "https://github.com/temporalio/tcld/archive/refs/tags/v0.1.4.tar.gz"
+  sha256 "45bb71eb715f9b49e82f530ead35f99fb9f5a1a9"
   license "MIT"
 
   depends_on "go" => :build
