@@ -21,7 +21,7 @@ class Tcld < Formula
   end
 
   test do
-    # Verify the version string and commit hash of tcld is set correctly.
+    # Verify the version string of tcld is set correctly.
     run_output = shell_output("#{bin}/tcld version 2>&1")
     assert_match "v#{version}", run_output
 
