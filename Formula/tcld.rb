@@ -2,8 +2,8 @@ class Tcld < Formula
   desc "Temporal Cloud CLI (tcld)"
   homepage "https://temporal.io/"
   url "https://github.com/temporalio/tcld.git",
-     tag: "v0.28.0",
-     revision: "01242f2c047d2a575349d09d02db6e1d31789034"
+     tag: "v0.29.0",
+     revision: "3a11b52bca841793bb5374a71859ad4287c17cb2"
 
   license "MIT"
 
