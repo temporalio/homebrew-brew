@@ -2,8 +2,8 @@ class TemporalCloud < Formula
   desc "Cloud plugin for the Temporal CLI (Pre-release)"
   homepage "https://github.com/temporalio/cloud-cli"
 
-  url "https://github.com/temporalio/cloud-cli/archive/refs/tags/v0.0.4.tar.gz"
-  sha256 "32ca6328da291057f62863b45157000b41a96190837ae17df78a791620c5e5f3"
+  url "https://github.com/temporalio/cloud-cli/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "d85e4bdad139082a41d82bff932ffd96075dd8aba9e24fc27897ac4d7dfca018"
   license "MIT"
   head "https://github.com/temporalio/cloud-cli.git", branch: "main"
 
@@ -13,9 +13,9 @@ class TemporalCloud < Formula
   end
 
   bottle do
-    root_url "https://github.com/temporalio/homebrew-brew/releases/download/temporal-cloud-0.0.4"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "a4c75e0d7908a1f5129f3bf34319e842eccb61cb802616c5ee346397dd772bc1"
-    sha256 cellar: :any,                 x86_64_linux: "c4b68266badd4e935341abd7de4dcd036c132700df95e3d599a0775df9525969"
+    root_url "https://github.com/temporalio/homebrew-brew/releases/download/temporal-cloud-0.1.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "b4e9275d8ef192bcff0278560f93032c0c46a4c70d6cbe6e978671d2103988e5"
+    sha256 cellar: :any,                 x86_64_linux: "345752255e5825419910dadb2bdb0590544b5d95a9f76d6fb43bb82dd3d5bca6"
   end
 
   depends_on "go" => :build
