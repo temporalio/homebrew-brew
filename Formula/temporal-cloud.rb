@@ -13,9 +13,9 @@ class TemporalCloud < Formula
   end
 
   bottle do
-    root_url "https://github.com/temporalio/homebrew-brew/releases/download/temporal-cloud-0.1.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "b4e9275d8ef192bcff0278560f93032c0c46a4c70d6cbe6e978671d2103988e5"
-    sha256 cellar: :any,                 x86_64_linux: "345752255e5825419910dadb2bdb0590544b5d95a9f76d6fb43bb82dd3d5bca6"
+    root_url "https://github.com/temporalio/homebrew-brew/releases/download/temporal-cloud-0.1.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "18672dc14c00e31e367638e45e8c21bf0afb5fc9d5937a880c9ffa7d5c4c2976"
+    sha256 cellar: :any,                 x86_64_linux: "192af11b996aa5c5ee8b0808f2065f921669b5314e852adbcd60d8d10d83d76a"
   end
 
   depends_on "go" => :build
